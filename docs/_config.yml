@@ -1,0 +1,38 @@
+# Site Variables
+url: https://vikpe.org/github-pages-starter
+
+# Custom settings (GitHub Pages starter)
+custom_settings:
+  # required
+  is_development: false
+
+  # optional/convenience
+  name: GitHub Pages starter
+  description: Fast builds, live reload, GitHub Pages ready.
+
+# Handling / Reading
+safe: true
+include:
+  - _pages
+
+keep_files:
+  - assets # generate by gulp
+
+exclude:
+  - _data/rev-manifest.json
+  - .gitignore
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+
+# Conversion
+markdown: kramdown
+
+# Output
+permalink: pretty
+timezone: Europe/Stockholm
+
+# Markdown Processors
+kramdown:
+  input: GFM
+  hard_wrap: false

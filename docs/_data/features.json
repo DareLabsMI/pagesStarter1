@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Live reload",
+    "description": "Changes to HTML and CSS (SASS) are instantly reflected in the browser."
+  },
+  {
+    "title": "Fast renders",
+    "description": "SASS is compiled using Gulp for fast render time."
+  },
+  {
+    "title": "Asset minification",
+    "description": "CSS and images are losslessly minified."
+  }
+]
